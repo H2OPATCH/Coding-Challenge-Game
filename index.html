@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Challenge Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Coding Challenge Game</h1>
+        <div id="problem-container">
+            <!-- Problem statement will be dynamically inserted here -->
+            <p id="problem-text">Loading problem statement...</p>
+        </div>
+        <div id="editor-container">
+            <!-- Code editor will be dynamically inserted here -->
+            <textarea id="code-editor" rows="10" cols="50" placeholder="Write your code here..."></textarea>
+        </div>
+        <div id="buttons-container">
+            <button id="run-btn">Run</button>
+            <button id="hint-btn">Hint (3 hints available)</button>
+            <button id="submit-btn">Submit</button>
+            <button id="next-btn">Next Level</button>
+        </div>
+        <div id="feedback-container">
+            <!-- Feedback message will be dynamically inserted here -->
+            <p id="feedback-message"></p>
+        </div>
+        <div id="leaderboard-container">
+            <h2>Leaderboard</h2>
+            <ol id="leaderboard-list">
+                <!-- Leaderboard entries will be dynamically inserted here -->
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

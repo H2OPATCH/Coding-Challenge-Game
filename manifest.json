@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Coding Challenge Game",
+    "version": "1.0",
+    "description": "A coding challenge game to test your programming skills.",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
+  
